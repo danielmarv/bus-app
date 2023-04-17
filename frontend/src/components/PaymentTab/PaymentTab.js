@@ -188,16 +188,14 @@ render() {
         <p className = 'hdng' > Date</p> <p className='hdng'> From </p >
         <p className = 'hdng' > To </p> <hr className='hr3' />
         <p className = 'hdng' > Passengers </p>{' '} { this.renderNamesOfPassenger() } < hr className = 'hr3' />
-        <p className = 'hdng' > Ticket price </p>{' '} <p className = 'hdng' > Tax </p>{' '} <p className = 'hdng' > Toal Sum < /p>{' '} </div>{' '} <div className = 'col-6' >
+        <p className = 'hdng' > Ticket price </p>{' '} <p className = 'hdng' > Tax </p>{' '} <p className = 'hdng' > Toal Sum </p>{' '} </div>{' '} <div className = 'col-6' >
         <hr className = 'hr3' />
         <p className = 'usrName' > { ' ' } { localStorage.getItem('date') } { ' ' } </p>{' '} 
         <p className = 'usrName' > { localStorage.getItem('start') } </p>{' '} 
         <p className = 'usrName' > { ' ' } { localStorage.getItem('destination') } { ' ' } 
         </p>{' '} <hr className = 'hr3' />
         <p className = 'hdng' >Seat No { ' ' } </p> {this.renderSeatNumbers()} <p> {this.getSumTotal()} </p>
-        </div>{' '} </div>{' '} </div>{' '} /div>{' '} <
-        /div>{' '} <
-        /div>
+        </div>{' '} </div>{' '} </div>{' '} </div>{' '} </div>{' '} </div>
     )
 }
 }
