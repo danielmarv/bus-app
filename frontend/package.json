@@ -8,32 +8,17 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/date-fns": "^2.6.0",
     "axios": "^0.19.2",
-    "balanced-match": "^2.0.0",
     "bootstrap": "^4.5.0",
-    "chalk": "^5.2.0",
-    "chokidar": "^3.5.3",
-    "color-convert": "^2.0.1",
-    "define-property": "^2.0.2",
-    "fs.realpath": "^1.0.0",
-    "i": "^0.3.7",
-    "inflight": "^1.0.6",
-    "is-extglob": "^2.1.1",
-    "isexe": "^2.0.0",
     "jwt-decode": "^2.2.0",
-    "minimatch": "^9.0.0",
-    "once": "^1.4.0",
     "react": "^16.13.1",
     "react-credit-cards": "^0.8.2",
     "react-datepicker": "^2.16.0",
-    "react-dev-utils": "^12.0.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
     "react-transition-group": "^4.4.1",
-    "redux": "^4.0.5",
-    "ret": "^0.5.0",
-    "wrappy": "^1.0.2"
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -55,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/react-router-dom": "^5.3.3"
   }
 }
